@@ -1,0 +1,33 @@
+
+:root {
+  --preto: #121212;
+  --branco: #E9F0EC;
+  --cinza: #303030;
+  --destaque: #232638;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--branco);
+  color: var(--preto);
+  line-height: 1.3;
+  margin: 0;
+}
+button {
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+h1, h2, p {
+  margin: 0;
+  font-weight: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+	
